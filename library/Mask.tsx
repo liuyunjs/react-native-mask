@@ -42,10 +42,10 @@ const MaskInternal: React.FC<OverlayProps> = ({
     />
   );
 
-  if (!onPress || disabled) return elem;
+  if (!onPress) return elem;
 
   return (
-    <TouchableWithoutFeedback onPress={onPress}>
+    <TouchableWithoutFeedback disabled={disabled} onPress={onPress}>
       {elem}
     </TouchableWithoutFeedback>
   );

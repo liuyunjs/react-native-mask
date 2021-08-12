@@ -5713,10 +5713,10 @@ rmotion@^0.0.4:
     framer-motion "^4.1.17"
     hoist-non-react-statics "^3.3.2"
 
-rn-darkly@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/rn-darkly/-/rn-darkly-0.0.6.tgz#d1556a7aeec0000b5d515044c3dbff0fc7d2ec6f"
-  integrity sha512-33j1viMvA1xklv4hYf4ap2/bZX0FejCyusMY0eS8w8Rp+3dX4Z3rRt5MWvrNjcYonA4WyrVQMLJ6dXUsEJ14EQ==
+rn-darkly@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/rn-darkly/-/rn-darkly-1.0.3.tgz#5f80c30a5585bd23d86454ffc8682295cdf3c305"
+  integrity sha512-0GcPTNim0Jot23RiodncwUyJIXP5iPJgOybbGJrZjgdcdeewrCiU4IHTqS2jBAKb/Qbk5hxr/XNGvXMXYdrZ4w==
   dependencies:
     "@types/hoist-non-react-statics" "^3.3.1"
     hoist-non-react-statics "^3.3.2"

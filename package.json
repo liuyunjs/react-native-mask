@@ -33,19 +33,5 @@
     "react-test-renderer": "17.0.1",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
-  },
-  "resolutions": {
-    "@types/react": "^17"
-  },
-  "jest": {
-    "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
   }
 }

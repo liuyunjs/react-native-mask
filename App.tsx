@@ -8,7 +8,7 @@ export default function () {
   return (
     <View style={{ flex: 1, marginTop: 44 }}>
       <DarklyText
-        darkStyle={{ color: '#eee' }}
+        dark_style={{ color: '#eee' }}
         onPress={() => setVisible(true)}>
         show mask
       </DarklyText>

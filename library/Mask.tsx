@@ -27,7 +27,6 @@ const MaskInternal: React.FC<OverlayProps> = ({
   ...rest
 }) => {
   const elem = (
-    // @ts-ignore
     <RMotionView
       {...rest}
       config={config}
@@ -51,17 +50,9 @@ const MaskInternal: React.FC<OverlayProps> = ({
   );
 };
 
-MaskInternal.defaultProps = {
-  tintColor: 'rgba(0, 0, 0, .2)',
-};
-
-export const Mask = darkly<
-  typeof MaskInternal,
-  {
-    darkTintColor?: ColorValue;
-  }
->(MaskInternal, [], ['tintColor']);
+export const Mask = darkly(MaskInternal, 'style', 'tintColor');
 
 Mask.defaultProps = {
-  darkTintColor: 'rgba(255, 255, 255, .05)',
+  dark_tintColor: 'rgba(255, 255, 255, .05)',
+  tintColor: 'rgba(0, 0, 0, .2)',
 };

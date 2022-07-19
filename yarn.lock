@@ -5856,10 +5856,10 @@ rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
-rmotion@^2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/rmotion/-/rmotion-2.0.0.tgz#c21263cb7192e29b67ceae44b0d3512fa68904a2"
-  integrity sha512-9vyPfL8NAm4+ic9zTrUEfTuYiiRUyDgR+cufEXf0WLGe4pgjufqSloomihnI3i1tAMQXHIjh+UG+3SywuDjkYw==
+rmotion@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/rmotion/-/rmotion-2.2.1.tgz#3dc34e4dc6fa34c115c631392596f22968c05cd7"
+  integrity sha512-tN6Q8AXk2WPs4uic2td77Y03ydqmm7khauUqXskxMnY29aZA4DNfkDTM7cDfDCVOhlcaGdpK38wMNqKlW6l5kQ==
   dependencies:
     "@liuyunjs/hooks" "^1"
     "@liuyunjs/utils" "^1"

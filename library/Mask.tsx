@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {
   TouchableWithoutFeedback,
   StyleSheet,
@@ -6,33 +6,28 @@ import {
   ColorValue,
 } from 'react-native';
 import { OneOfAnimConf, RMotionView } from 'rmotion';
+import { fadeIn, fadeOut } from 'rmotion/dist/animations/fade';
 import { darkly } from 'rn-darkly';
 
 type OverlayProps = ViewProps & {
   tintColor?: ColorValue;
   onPress?: () => void;
   disabled?: boolean;
-  config?: OneOfAnimConf;
-};
-
-const hide = { opacity: 0 };
-const show = { opacity: 1 };
+} & OneOfAnimConf;
 
 const MaskInternal: React.FC<OverlayProps> = ({
   tintColor,
   onPress,
   disabled,
-  config,
   style,
   ...rest
 }) => {
   const elem = (
     <RMotionView
       {...rest}
-      config={config}
-      from={hide}
-      animate={show}
-      exit={hide}
+      keyframes
+      animate={fadeIn}
+      exit={fadeOut}
       style={[
         StyleSheet.absoluteFill,
         style,

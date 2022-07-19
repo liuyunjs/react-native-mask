@@ -6,7 +6,7 @@ import {
   ColorValue,
 } from 'react-native';
 import { OneOfAnimConf, RMotionView } from 'rmotion';
-import { fadeIn, fadeOut } from 'rmotion/dist/animations/fade';
+import { fadeIn, fadeOut } from 'rmotion/dist/animations/main';
 import { darkly } from 'rn-darkly';
 
 type OverlayProps = ViewProps & {
